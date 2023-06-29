@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parkinson's Disease Prediction</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        
+        form {
+            width: 400px;
+            padding: 20px;
+            background-color: #f7f7f7;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: inline-block;
+            width: 150px;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        
+        input[type="number"] {
+            width: 100px;
+            padding: 5px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+        
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form action="/predict" method="post">
+        <h1>Deep Learning Model Prediction</h1>
+        
+        <label for="enrlpd">ENRLPD:</label>
+        <input type="number" name="enrlpd" id="enrlpd" min="0" max="1" step="1"><br><br>
+        
+        <label for="enrlprod">ENRLPROD:</label>
+        <input type="number" name="enrlprod" id="enrlprod" min="0" max="1" step="1"><br><br>
+        
+        <label for="enrllrrk2">ENRLLRRK2:</label>
+        <input type="number" name="enrllrrk2" id="enrllrrk2" min="0" max="1" step="1"><br><br>
+        
+        <label for="enrlgba">ENRLGBA:</label>
+        <input type="number" name="enrlgba" id="enrlgba" min="0" max="1" step="1"><br><br>
+        
+        <label for="enrlsnca">ENRLSNCA:</label>
+        <input type="number" name="enrlsnca" id="enrlsnca" min="0" max="1" step="1"><br><br>
+        
+        <label for="enrlprkn">ENRLPRKN:</label>
+        <input type="number" name="enrlprkn" id="enrlprkn" min="0" max="1" step="1"><br><br>
+        
+        <label for="enrlpink1">ENRLPINK1:</label>
+        <input type="number" name="enrlpink1" id="enrlpink1" min="0" max="1" step="1"><br><br>
+        
+        <label for="conpd">CONPD:</label>
+        <input type="number" name="conpd" id="conpd" min="0" max="1" step="1"><br><br>
+        
+        <label for="conprod">CONPROD:</label>
+        <input type="number" name="conprod" id="conprod" min="0" max="1" step="1"><br><br>
+        
+        <label for="conlrrk2">CONLRRK2:</label>
+        <input type="number" name="conlrrk2" id="conlrrk2" min="0" max="1" step="1"><br><br>
+        
+        <label for="congba">CONGBA:</label>
+        <input type="number" name="congba" id="congba" min="0" max="1" step="1"><br><br>
+        
+        <label for="consnca">CONSNCA:</label>
+        <input type="number" name="consnca" id="consnca" min="0" max="1" step="1"><br><br>
+        
+        <label for="conprkn">CONPRKN:</label>
+        <input type="number" name="conprkn" id="conprkn" min="0" max="1" step="1"><br><br>
+        
+        <label for="conpink1">CONPINK1:</label>
+        <input type="number" name="conpink1" id="conpink1" min="0" max="1" step="1"><br><br>
+        
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

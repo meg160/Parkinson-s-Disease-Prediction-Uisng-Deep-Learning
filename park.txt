@@ -1,0 +1,15 @@
+2023-06-17 12:08:29 WARNING - Log warning Message
+2023-06-17 12:08:29 ERROR - Log Error Message
+2023-06-17 12:08:29 WARNING - Log warning Message
+2023-06-17 12:08:29 CRITICAL - Log Critical Message
+2023-06-17 12:08:29 WARNING - Log warning Message
+2023-06-17 12:08:29 ERROR - Log Error Message
+2023-06-17 12:08:29 WARNING - Log warning Message
+2023-06-17 12:08:29 ERROR - Log Error Message
+2023-06-17 12:08:29 WARNING - Log warning Message
+2023-06-17 12:08:29 CRITICAL - Log Critical Message
+2023-06-17 12:08:29 WARNING - Log warning Message
+2023-06-17 12:08:29 ERROR - Log Error Message
+2023-06-17 12:08:29 WARNING - Log warning Message
+2023-06-17 12:08:29 ERROR - Log Error Message
+2023-06-17 12:08:29 WARNING - Log warning Message
